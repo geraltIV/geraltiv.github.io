@@ -1,0 +1,36 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 38px 0;
+    border-bottom: 1px solid #505268;
+
+    &_logo {
+        width: 189px;
+        height: 24px;
+        background: url('../icons/logo.png') center (center / cover) no-repeat;
+        background-size: 100% 100%;
+    }
+
+    &_menu {
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        &_item {
+            margin-left: 60px;
+            a {
+                opacity: 0.75;
+                color: #ffffff;
+                font-family: 'Raleway Bold';
+                font-size: 13px;
+                text-transform: uppercase;
+                text-decoration: none;
+                transition: .2s all ease-in-out;
+
+                &:hover {
+                    opacity: 1;
+                }
+            }
+        }
+    }
+}

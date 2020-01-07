@@ -1,0 +1,69 @@
+.advantages {
+    padding: 120px 0;
+
+    &_wrapper {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px,1fr));
+        grid-gap: 7.75vw;
+    }
+
+    &_icon {
+        display: block;
+        height: 60px;
+        margin: 0 auto;
+
+        &.customise {
+            width: 60px;
+            background: url('../icons/advantages/pen.png') center (center / cover) no-repeat;
+            background-size: 100% 100%;
+        }
+
+        &.responsive {
+            width: 73px;
+            background: url('../icons/advantages/comp.png') center (center / cover) no-repeat;
+            background-size: 100% 100%;
+        }
+
+        &.design {
+            width: 41px;
+            background: url('../icons/advantages/lamp.png') center (center / cover) no-repeat;
+            background-size: 100% 100%;
+        }
+
+        &.code {
+            width: 56px;
+            background: url('../icons/advantages/react.png') center (center / cover) no-repeat;
+            background-size: 100% 100%;
+        }
+
+        &.ship {
+            width: 72px;
+            background: url('../icons/advantages/briefcase.png') center (center / cover) no-repeat;
+            background-size: 100% 100%;
+        }
+
+        &.download {
+            width: 79px;
+            background: url('../icons/advantages/cloud.png') center (center / cover) no-repeat;
+            background-size: 100% 100%;
+        }
+    }
+
+    &_title {
+        margin-top: 34px;
+        color: #2d3033;
+        font-family: 'Raleway Bold';
+        font-size: 14px;
+        text-transform: uppercase;
+        text-align: center;
+    }
+
+    &_descr {
+        margin-top: 25px;
+        color: #6c7279;
+        font-family: 'Raleway Regular';
+        font-size: 14px;
+        line-height: 21px;
+        text-align: center;
+    }
+}

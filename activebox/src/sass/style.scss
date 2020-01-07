@@ -1,0 +1,16 @@
+@import "libs/reset";
+@import "base/fonts";
+
+.container {
+    max-width: 1210px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+@import "blocks/promo";
+@import "blocks/header";
+@import "blocks/advantages";
+@import "blocks/team";
+@import "blocks/feed";
+@import "blocks/advertising";
+@import "blocks/footer";

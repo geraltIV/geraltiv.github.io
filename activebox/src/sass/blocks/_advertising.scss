@@ -1,0 +1,36 @@
+.advertising {
+    padding: 100px 0;
+
+    &_title {
+        color: #2d3033;
+        font-family: 'Raleway Light';
+        font-size: 28px;
+        font-weight: 300;
+        line-height: 21px;
+        text-align: center;
+    }
+
+    &_subtitle {
+        margin-top: 16px;
+        color: #2d3033;
+        font-family: 'Raleway Bold';
+        font-size: 13px;
+        text-transform: uppercase;
+        text-align: center;
+    }
+
+    &_btn {
+        display: block;
+        margin: 0 auto;
+        width: 280px;
+        height: 46px;
+        margin-top: 40px;
+        background-color: #e84545;
+        border: 0;
+
+        color: #ffffff;
+        font-family: 'Raleway SemiBold';
+        font-size: 13px;
+        text-transform: uppercase;
+    }
+}
